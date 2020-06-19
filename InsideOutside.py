@@ -24,7 +24,7 @@ for i in range(n):
     for j in range(2):
         a.append(float(input()))
     poly.append(a)
-x=int(input())
-y=int(input())
+x=float(input())
+y=float(input())
 z=point_inside_polygon(x,y,poly)
 print(z)
