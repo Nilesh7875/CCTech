@@ -23,7 +23,6 @@ for i in range(n):
     a=[]
     for j in range(2):
         a.append(float(input()))
-        a.append(float(input()))
     poly.append(a)
 x=point_inside_polygon(0,0,poly)
 print(x)
