@@ -17,12 +17,14 @@ def point_inside_polygon(x,y,poly):
 
     return inside
     
-poly=[[]]
+poly=[]
 n=int(input())
 for i in range(n):
     a=[]
     for j in range(2):
         a.append(float(input()))
     poly.append(a)
-x=point_inside_polygon(0,0,poly)
-print(x)
+x=int(input())
+y=int(input())
+z=point_inside_polygon(x,y,poly)
+print(z)
